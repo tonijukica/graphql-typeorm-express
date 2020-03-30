@@ -1,4 +1,4 @@
-import * as Express from 'express';
+import Express from 'express';
 import { ApolloServer } from 'apollo-server-express';
 import { createConnection } from 'typeorm';
 import { buildSchema } from 'type-graphql';
@@ -11,7 +11,7 @@ const main = async () => {
     resolvers: [RegisterResolver]
   });
   
-  const apolloServer = new ApolloServer({schema});
+  const apolloServer = new ApolloServer({ schema });
 
   const app = Express();
 
