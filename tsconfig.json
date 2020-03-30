@@ -23,7 +23,7 @@
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "baseUrl": ".",
-    "rootDir": "src"
+    "rootDir": "server"
   },
   "exclude": ["node_modules"],
   "include": ["./server/**/*.tsx", "./server/**/*.ts"]
